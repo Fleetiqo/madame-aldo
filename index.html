@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Madame Aldo | Traiteur & Épicerie Fine — Sainte-Adèle</title>
+  <meta name="description" content="Madame Aldo, traiteur artisanal à Sainte-Adèle. Buffets chauds et froids, brunch, boîtes à lunch, pizza, épicerie de mets cuisinés. (450) 229-1211">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;1,700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+<body>
+
+  <header class="header">
+    <nav class="nav">
+      <a href="#accueil" class="nav__logo">
+        <img src="/logo.jpg" alt="Madame Aldo" class="nav__logo-img">
+      </a>
+      <ul class="nav__menu">
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#apropos">À propos</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#galerie">Galerie</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="tel:4502291211" class="nav__cta">450 229-1211</a>
+      <button class="nav__toggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="accueil">
+    <div class="hero__bg" style="background-image:url('/549639058_1282596963878316_2590896482045509394_n.jpg')"></div>
+    <div class="hero__content">
+      <img src="/logo.jpg" alt="Madame Aldo" class="hero__logo-img">
+      <p class="hero__tagline">Traiteur artisanal · Épicerie fine · Sainte-Adèle</p>
+      <div class="hero__btns">
+        <a href="tel:4502291211" class="btn btn--primary">Commander — 450 229-1211</a>
+        <a href="#services" class="btn btn--ghost">Nos services</a>
+      </div>
+    </div>
+    <div class="hero__scroll">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 5v14M19 12l-7 7-7-7"/></svg>
+    </div>
+  </section>
+
+  <!-- PILLARS -->
+  <section class="pillars">
+    <div class="pillars__grid">
+      <div class="pillar">
+        <span class="pillar__icon">🍽️</span>
+        <h3>Traiteur sur mesure</h3>
+        <p>Buffets chauds, froids, brunch et boîtes à lunch pour tous vos événements</p>
+      </div>
+      <div class="pillar">
+        <span class="pillar__icon">🍕</span>
+        <h3>Pizza artisanale</h3>
+        <p>Pizzas fraîches préparées avec amour, à emporter ou en livraison</p>
+      </div>
+      <div class="pillar">
+        <span class="pillar__icon">🛒</span>
+        <h3>Épicerie fine</h3>
+        <p>Mets cuisinés maison à réchauffer — le goût du fait maison, sans effort</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- À PROPOS -->
+  <section class="apropos" id="apropos">
+    <div class="apropos__inner">
+      <div class="apropos__text fade-in">
+        <span class="section-label">Notre histoire</span>
+        <h2 class="section-title">La cuisine de<br><em>Madame Aldo</em></h2>
+        <div class="section-rule"></div>
+        <p>Nichée au cœur de Sainte-Adèle, Madame Aldo est bien plus qu'un traiteur — c'est une institution culinaire où chaque plat est préparé avec passion et des ingrédients soigneusement sélectionnés.</p>
+        <p>Des buffets élaborés pour vos réceptions aux boîtes à lunch du quotidien, en passant par nos pizzas artisanales et notre épicerie de mets cuisinés, nous mettons le goût du fait maison à votre portée.</p>
+        <p>Que ce soit pour Noël, un brunch en famille ou simplement un repas de semaine sans tracas, Madame Aldo est là pour vous.</p>
+        <a href="tel:4502291211" class="btn btn--dark">Nous appeler</a>
+      </div>
+      <div class="apropos__visual fade-in">
+        <img class="apropos__img" src="/634866202_1408210987983579_2013050575011950390_n.jpg" alt="Cuisine Madame Aldo">
+        <div class="apropos__frame"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <div class="services__header fade-in">
+      <span class="section-label">Ce que nous offrons</span>
+      <h2 class="section-title"><em>Nos services</em></h2>
+      <div class="section-rule section-rule--center"></div>
+      <p style="font-size:0.95rem;color:var(--muted);line-height:1.8;">Du traiteur haut de gamme à l'épicerie du quotidien — tout est fait maison avec soin.</p>
+    </div>
+    <div class="services__grid">
+      <div class="service-card fade-in">
+        <img class="service-card__img" src="/549639058_1282596963878316_2590896482045509394_n.jpg" alt="Buffet traiteur">
+        <div class="service-card__body">
+          <span class="service-card__icon">🍽️</span>
+          <h3 class="service-card__title">Buffet traiteur</h3>
+          <p class="service-card__desc">Buffets chauds et froids pour vos événements d'entreprise, mariages, fêtes de famille et célébrations de Noël. Tout est préparé sur mesure selon vos besoins.</p>
+        </div>
+      </div>
+      <div class="service-card fade-in">
+        <img class="service-card__img" src="/511709521_1206500248154655_8187055175090243991_n.jpg" alt="Brunch et boîtes à lunch">
+        <div class="service-card__body">
+          <span class="service-card__icon">🥐</span>
+          <h3 class="service-card__title">Brunch & Boîtes à lunch</h3>
+          <p class="service-card__desc">Des brunchs généreux pour vos réunions du matin et des boîtes à lunch savoureuses pour vos équipes. Fraîcheur et qualité garanties chaque jour.</p>
+        </div>
+      </div>
+      <div class="service-card fade-in">
+        <img class="service-card__img" src="/514028615_1206500238154656_2510096841507517181_n.jpg" alt="Pizza artisanale">
+        <div class="service-card__body">
+          <span class="service-card__icon">🍕</span>
+          <h3 class="service-card__title">Pizza artisanale</h3>
+          <p class="service-card__desc">Nos pizzas sont préparées avec une pâte maison et des ingrédients frais. Disponibles à emporter ou en livraison — un classique réinventé avec amour.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALERIE -->
+  <section class="galerie" id="galerie">
+    <div class="galerie__header fade-in">
+      <span class="section-label">Notre cuisine</span>
+      <h2 class="section-title section-title--light"><em>Galerie</em></h2>
+      <div class="section-rule section-rule--center"></div>
+    </div>
+    <div class="galerie__grid">
+      <div class="galerie__cell galerie__cell--tall">
+        <img src="/511017820_1206500094821337_5484530075129102257_n.jpg" alt="Plat Madame Aldo">
+      </div>
+      <div class="galerie__cell">
+        <img src="/511894458_1206500084821338_8815797770271372341_n.jpg" alt="Plat Madame Aldo">
+      </div>
+      <div class="galerie__cell">
+        <img src="/542689589_1267557668715579_2430434346187664541_n.jpg" alt="Plat Madame Aldo">
+      </div>
+      <div class="galerie__cell">
+        <img src="/542830513_1267557652048914_403367165095574008_n.jpg" alt="Plat Madame Aldo">
+      </div>
+      <div class="galerie__cell">
+        <img src="/578716788_1327065246098154_2320332894714784321_n.jpg" alt="Plat Madame Aldo">
+      </div>
+      <div class="galerie__cell">
+        <img src="/583044123_1331567925647886_2725051746872344216_n.jpg" alt="Plat Madame Aldo">
+      </div>
+      <div class="galerie__cell">
+        <img src="/594968393_1350893207048691_3558948290357165186_n.jpg" alt="Plat Madame Aldo">
+      </div>
+    </div>
+  </section>
+
+  <!-- AVIS -->
+  <section class="avis">
+    <div class="avis__inner fade-in">
+      <span class="section-label" style="color:var(--gold2);">Ce qu'on dit de nous</span>
+      <h2 class="section-title section-title--light">Ils nous font <em>confiance</em></h2>
+      <div class="section-rule section-rule--center" style="background:var(--gold2);"></div>
+      <div class="avis__grid">
+        <div class="avis__card">
+          <div class="avis__card-source">Google</div>
+          <div class="avis__card-score">4.6</div>
+          <div class="avis__card-stars">★★★★★</div>
+          <div class="avis__card-count">95 avis</div>
+        </div>
+        <div class="avis__card">
+          <div class="avis__card-source">Facebook</div>
+          <div class="avis__card-score">5.0</div>
+          <div class="avis__card-stars">★★★★★</div>
+          <div class="avis__card-count">24 avis</div>
+        </div>
+        <div class="avis__card">
+          <div class="avis__card-source">RestoMontréal</div>
+          <div class="avis__card-score">5.0</div>
+          <div class="avis__card-stars">★★★★★</div>
+          <div class="avis__card-count">17 avis</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HORAIRES -->
+  <section class="horaires" id="horaires">
+    <div class="horaires__inner fade-in">
+      <span class="section-label">Quand nous visiter</span>
+      <h2 class="section-title"><em>Heures d'ouverture</em></h2>
+      <div class="section-rule section-rule--center"></div>
+      <div class="horaires__card">
+        <div class="horaires__row">
+          <span class="horaires__day">Lundi</span>
+          <span class="horaires__time">9h – 18h</span>
+        </div>
+        <div class="horaires__row">
+          <span class="horaires__day">Mardi</span>
+          <span class="horaires__time">9h – 18h</span>
+        </div>
+        <div class="horaires__row">
+          <span class="horaires__day">Mercredi</span>
+          <span class="horaires__time">9h – 18h</span>
+        </div>
+        <div class="horaires__row">
+          <span class="horaires__day">Jeudi</span>
+          <span class="horaires__time">9h – 18h</span>
+        </div>
+        <div class="horaires__row">
+          <span class="horaires__day">Vendredi</span>
+          <span class="horaires__time">9h – 18h</span>
+        </div>
+        <div class="horaires__row">
+          <span class="horaires__day">Samedi</span>
+          <span class="horaires__time">10h – 18h</span>
+        </div>
+        <div class="horaires__row closed">
+          <span class="horaires__day">Dimanche</span>
+          <span class="horaires__time">Fermé</span>
+        </div>
+      </div>
+      <p class="horaires__note">Commandes spéciales sur réservation</p>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="contact__inner">
+      <div class="contact__info fade-in">
+        <span class="section-label">Nous joindre</span>
+        <h2 class="section-title"><em>Contactez-nous</em></h2>
+        <div class="section-rule"></div>
+        <p>Venez nous rendre visite à Sainte-Adèle ou contactez-nous pour vos commandes et événements.</p>
+        <div class="contact__details">
+          <div class="contact__item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <div>
+              <h4>Adresse</h4>
+              <p>814 Bd de Sainte-Adèle<br>Sainte-Adèle, QC J8B 2N3</p>
+              <a href="https://maps.google.com/?q=814+Bd+de+Sainte-Adele+QC+J8B+2N3" target="_blank" rel="noopener" class="directions-link">Obtenir l'itinéraire →</a>
+            </div>
+          </div>
+          <div class="contact__item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <div>
+              <h4>Téléphone</h4>
+              <p><a href="tel:4502291211">450 229-1211</a></p>
+            </div>
+          </div>
+          <div class="contact__item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <div>
+              <h4>Courriel</h4>
+              <p><a href="mailto:madamealdo@gmail.com">madamealdo@gmail.com</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="contact__social">
+          <h4>Suivez-nous</h4>
+          <div class="social__links">
+            <a href="https://www.facebook.com/MmeAldo/" target="_blank" rel="noopener" aria-label="Facebook">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            </a>
+            <a href="https://www.instagram.com/madame.aldo/" target="_blank" rel="noopener" aria-label="Instagram">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="contact__map fade-in">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2773.5!2d-74.1320!3d45.9480!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2s814+Bd+de+Sainte-Ad%C3%A8le%2C+Sainte-Ad%C3%A8le%2C+QC+J8B+2N3!5e0!3m2!1sfr!2sca!4v1" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Madame Aldo - 814 Bd de Sainte-Adèle"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <img src="/logo.jpg" alt="Madame Aldo" class="footer__logo-img">
+        <p class="footer__tagline">Traiteur artisanal et épicerie fine à Sainte-Adèle. Fait maison avec passion depuis toujours.</p>
+        <div class="footer__social">
+          <a href="https://www.facebook.com/MmeAldo/" target="_blank" rel="noopener" aria-label="Facebook">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+          </a>
+          <a href="https://www.instagram.com/madame.aldo/" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer__col">
+        <h4>Navigation</h4>
+        <ul class="footer__links">
+          <li><a href="#accueil">Accueil</a></li>
+          <li><a href="#apropos">À propos</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#galerie">Galerie</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Heures d'ouverture</h4>
+        <ul class="footer__hours-list">
+          <li><span>Lun – Ven</span><span>9h – 18h</span></li>
+          <li><span>Samedi</span><span>10h – 18h</span></li>
+          <li><span>Dimanche</span><span>Fermé</span></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Contact</h4>
+        <ul class="footer__contact-list">
+          <li>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>814 Bd de Sainte-Adèle<br>Sainte-Adèle, QC J8B 2N3</span>
+          </li>
+          <li>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <a href="tel:4502291211">450 229-1211</a>
+          </li>
+          <li>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <a href="mailto:madamealdo@gmail.com">madamealdo@gmail.com</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; 2026 Madame Aldo — Sainte-Adèle. Tous droits réservés.</p>
+      <div class="footer__bottom-links">
+        <a href="#accueil">Confidentialité</a>
+        <span>·</span>
+        <a href="#accueil">Conditions</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/src/main.js" type="module"></script>
+</body>
+</html>
